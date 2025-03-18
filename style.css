@@ -11,6 +11,9 @@ html,body{
     width: 100%;
     /* color: white; */
 }
+html{
+    scroll-behavior: smooth;
+}
 body{
     overflow-x: hidden;
 }
@@ -330,7 +333,7 @@ nav button{
 
 
     #sec1{
-        height: 115%;
+        height: 200vw;
         width: 100%;
         gap: 50px;
         display: flex;
@@ -361,7 +364,7 @@ nav button{
     }    
     
     .center{
-        height: 72%;
+        height: 150vw;
         width: 100%;
         display: unset;
     }
@@ -416,7 +419,7 @@ nav button{
 
 
     #sec2{
-        height: 180%;
+        height: 300vw;
         width: 100%;
     }
     #sec2 .services{
@@ -518,7 +521,7 @@ nav button{
     /* section-3  */
 
     #sec3{
-        height: 80%;
+        height: 130vw;
         width: 100%;
         display: flex;
         justify-content: center;
@@ -566,5 +569,90 @@ nav button{
     .info-2 img{
         width: 70%;
     }
+
+
+    /* section4 */
+
+    #sec4{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        /* align-items: ; */
+        justify-content: space-between;
+    }
+    .sec4part1{
+        display: flex;
+        flex-direction: column;
+        align-items: unset;
+        padding: 0 70px;
+        gap: 30px;
+    }
+    .sec4part1 h2{
+        font-size: 20px;
+        width: fit-content;
+        font-family: "Source Code Pro", monospace;
+        background-color: #B9FF66;
+        padding: 3px;
+        border-radius: 6px;
+    }
+    .sec4part1 p{
+        font-size: 16px;
+        text-align: justify;
+    }
+    .sec4part2{
+        height: 113vw;
+        border-radius: 30px;
+        width: 92%;
+        margin: 0 auto;
+        padding: 15px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        color: white;
+        align-items: center;
+        background-color: rgb(31, 28, 28);   
+    }
+    .inner-box{
+        width: 100%;
+        text-align: justify;
+        display: flex;
+        gap: 30px;
+        flex-direction: column;
+        padding: 25px;
+    }
+    .inner-box p{
+        font-size: 14px;
+    }
+    .inner-box button{
+        width: 40%;
+        font-size: 12px;
+        background-color: transparent;
+        border: none;
+        color: #B9FF66;
+        letter-spacing: 2px;
+    }
+    .inner-box button i{
+        display: inline-block;
+        transform: rotate(-45deg);
+    }
+    .inner-box{
+        border-left: 3px solid rgb(112, 110, 110);
+        border-right: 3px solid rgb(112, 109, 109);
+    }
+    .sec4part3{
+        width: 100vw;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: black;
+    }
+    .sec4part3 p{
+        color: white;
+        font-size: 12px;
+    }
+
 
 }
