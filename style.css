@@ -1,0 +1,570 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    /* color: white; */
+}
+body{
+    overflow-x: hidden;
+}
+section{
+    position: relative;
+}
+#sec1{
+    height: 100%;
+    width: 100%;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5vw 5vw;
+}
+nav h1{
+    font-size:  30px;
+}
+nav h4{
+    font-size: 20px;
+    font-weight: 500;
+}
+nav i{
+    display: inline-block;
+    transform: rotate(45deg);
+}
+nav a{
+    text-decoration: none;
+    color: rgb(58, 58, 58);
+}
+nav .part-2{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+nav .part-2-hidden{
+    display: none;
+}
+nav button{
+    border: none;
+    border: 1px solid black;
+    padding: 8px 15px;
+    background: transparent;
+    border-radius: 6px;
+    font-weight: 600;
+    outline: none;
+}
+
+
+.center{
+    height: 72%;
+    width: 100%;
+    padding: 5vw;
+    display: flex;
+}
+ 
+.center-1{
+    height: 100%;
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.center-1 h1{
+    font-size: 60px;
+    font-family: "Source Code Pro", monospace;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 65px;
+}
+.center-1 p{
+    font-size: 25px;
+}
+.center-1 button{
+    background-color: black;
+    padding: 10px 25px;
+    border-radius: 10px;
+    width: 300px;
+    color: white;
+    border: none;
+    font-size: 17px;
+}
+.center-2{
+    height: 100%;
+    width: 55%;
+    background-image: url(hero.fb337848b4c02739752ae9d354762635.svg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.section1-bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 60px;
+}
+.section1-bottom img{
+    height: 60px;
+}
+#sec2{
+    height: 100%;
+    width: 100%;
+}
+#sec2 .services{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    margin-top: 20px;
+    padding: 30px 70px;
+}
+#sec2 .services h3{
+    background-color: #B9FF66;
+    border-radius: 5px;
+    font-size: 35px;
+    padding: 8px 20px;
+    font-family: "Source Code Pro", monospace;
+    font-weight: 500;
+}
+#sec2 .services p{
+    font-size: 23px;
+}
+
+.container{
+    height: 90%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 30px 70px;
+}
+.elem{
+    flex-shrink: 0;
+    height: 250px;
+    width: 45%;
+    display: flex;
+    gap: 20px;
+    padding: 40px;
+    border: 2px solid black;
+    box-shadow: 0px 6px 0px black;
+    border-radius: 15px;
+    /* background-color: lightblue; */
+}
+.elem .elem-part1{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.elem .elem-part1 i{
+    font-size: 20px;
+    display: inline-block;
+    rotate: -45deg;
+    background-color: black;
+    border-radius: 50%;
+    color: white;
+}
+.elem .elem-part1 h2{
+    font-family: "Source Code Pro", monospace;
+    background-color: #B9FF66;
+    width: 80%;
+    font-weight: 500;
+    border-radius: 6px;
+}
+.elem .elem-part2{
+    height: 100%;
+    width: 50%;
+}
+.elem .elem-part2 img{
+    height: 100%;
+    width: 100%;
+}
+.black{
+    background-color: black;
+}
+.black  .elem-part1 h2{
+    background-color: white;
+}
+.black  .elem-part1 h4{
+    color: white;
+}
+.black .elem-part1 i{
+    font-size: 20px;
+    display: inline-block;
+    rotate: -45deg;
+    background-color: white;
+    border-radius: 50%;
+    color: black;
+}
+#sec3{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.info{
+    height: 50%;
+    border-radius: 30px;
+    width: 84%;
+    background-color: rgba(128, 128, 128, 0.173);
+    display: flex;
+}
+.info div{
+    padding: 3vw;
+    width: 50%;
+}
+.info-1{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.info-1 h2{
+    font-size: 35px;
+    font-family: "Source Code Pro", monospace;
+}
+.info-1 p{
+    font-size: 20px;
+}
+.info-1 button{
+    width: 50%;
+    background-color: black;
+    color: white;
+    font-size: 17px;
+    border: none;
+    border-radius: 6px;
+    padding: 10px 35px;
+}
+.info-2{
+    display: flex;
+    align-items: center;
+}
+.info-2 img{
+    width: 100%;
+}   
+#sec4{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* align-items: ; */
+    justify-content: space-between;
+}
+.sec4part1{
+    display: flex;
+    align-items: center;
+    padding: 0 70px;
+    gap: 30px;
+}
+.sec4part1 h2{
+    font-size: 35px;
+    font-family: "Source Code Pro", monospace;
+    background-color: #B9FF66;
+    padding: 3px;
+    border-radius: 6px;
+}
+.sec4part1 p{
+    font-size: 25px;
+}
+.sec4part2{
+    height: 50%;
+    border-radius: 30px;
+    width: 92%;
+    margin: 0 auto;
+    padding: 50px;
+    display: flex;
+    color: white;
+    align-items: center;
+    background-color: rgb(31, 28, 28);   
+}
+.inner-box{
+    width: 32%;
+    text-align: justify;
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+    padding: 25px;
+}
+.inner-box p{
+    font-size: 18px;
+}
+.inner-box button{
+    width: 50%;
+    font-size: 18px;
+    background-color: transparent;
+    border: none;
+    color: #B9FF66;
+    letter-spacing: 2px;
+}
+.inner-box button i{
+    display: inline-block;
+    transform: rotate(-45deg);
+}
+.inner-box:nth-child(2){
+    border-left: 3px solid rgb(112, 110, 110);
+    border-right: 3px solid rgb(112, 109, 109);
+}
+.sec4part3{
+    width: 100vw;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+.sec4part3 p{
+    color: white;
+}
+
+
+/* responsive  */
+@media (max-width:600px) {
+
+    /* sec1  */
+
+
+    #sec1{
+        height: 115%;
+        width: 100%;
+        gap: 50px;
+        display: flex;
+        flex-direction: column;
+    }
+    nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 4.5vw 5vw;
+    }
+    nav h1{
+        font-size:  20px;
+    }
+    nav h4{
+        font-size: 15px;
+        font-weight: 500;
+    }
+
+    nav .part-2{
+        display: none;
+        align-items: center;
+        gap: 50px;
+    }
+    nav .part-2-hidden{
+        display: flex;
+        gap: 10px;
+    }    
+    
+    .center{
+        height: 72%;
+        width: 100%;
+        display: unset;
+    }
+    .center-1{
+        height: unset;
+        width: 90%;
+        padding: 5vw;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+    .center-1 h1{
+        font-size: 30px;
+        font-family: "Source Code Pro", monospace;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        line-height: 30px;
+    }
+    .center-1 p{
+        font-size: 20px;
+    }
+    .center-1 button{
+        background-color: black;
+        padding: 10px 25px;
+        border-radius: 10px;
+        width: 150px;
+        color: white;
+        border: none;
+        font-size: 10px;
+    }
+    .center-2{
+        height: 40%;
+        width: 80%;
+        background-image: url(hero.fb337848b4c02739752ae9d354762635.svg);
+        background-size: 75% 80%;
+        background-position: right;
+        background-repeat: no-repeat;
+    }
+    .section1-bottom{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        align-items: center;
+        padding: 0px 30px;
+    }
+    .section1-bottom img{
+        height: 25px;
+    }
+
+    /* section-2  */
+
+
+    #sec2{
+        height: 180%;
+        width: 100%;
+    }
+    #sec2 .services{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        gap: 30px;
+        margin-top: 0px;
+        padding: 0 20px;
+    }
+    #sec2 .services h3{
+        background-color: #B9FF66;
+        width: fit-content;
+        border-radius: 5px;
+        font-size: 20px;
+        padding: 10px;
+        font-family: "Source Code Pro", monospace;
+        font-weight: 500;
+    }
+    #sec2 .services p{
+        font-size: 15px;
+    }
+    
+    .container{
+        height: 90%;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+        justify-content: space-evenly;
+        padding: 30px 40px;
+    }
+    .elem{
+        flex-shrink: 0;
+        height: 250px;
+        width: 100%;
+        display: flex;
+        gap: 10px;
+        padding: 20px;
+        border: 2px solid black;
+        box-shadow: 0px 6px 0px black;
+        border-radius: 15px;
+        /* background-color: lightblue; */
+    }
+    .elem .elem-part1{
+        height: 100%;
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    .elem .elem-part1 i{
+        font-size: 12px;
+        display: inline-block;
+        rotate: -45deg;
+        background-color: black;
+        border-radius: 50%;
+        color: white;
+    }
+    .elem .elem-part1 h2{
+        font-family: "Source Code Pro", monospace;
+        background-color: #B9FF66;
+        width: 80%;
+        font-size: 12px;
+        font-weight: 500;
+        border-radius: 6px;
+    }
+    .elem .elem-part1 h4{
+        font-size: 12px;
+    }
+    .elem .elem-part2{
+        height: 100%;
+        width: 50%;
+        display: flex;
+        align-items: center;
+    }
+    .elem .elem-part2 img{
+        height: 80%;
+        width: 100%;
+    }
+    .black{
+        background-color: black;
+    }
+    .black  .elem-part1 h2{
+        background-color: white;
+    }
+    .black  .elem-part1 h4{
+        color: white;
+    }
+    .black .elem-part1 i{
+        font-size: 12px;
+        display: inline-block;
+        rotate: -45deg;
+        background-color: white;
+        border-radius: 50%;
+        color: black;
+    }
+
+    /* section-3  */
+
+    #sec3{
+        height: 80%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .info{
+        height: 70%;
+        border-radius: 30px;
+        width: 84%;
+        background-color: rgba(128, 128, 128, 0.173);
+        display: flex;
+        flex-direction: column;
+    }
+    .info div{
+        padding: 3vw;
+        width: 100%;
+    }
+    .info-1{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+    .info-1 h2{
+        font-size: 20px;
+        font-family: "Source Code Pro", monospace;
+    }
+    .info-1 p{
+        font-size: 12px;
+    }
+    .info-1 button{
+        width: 55%;
+        background-color: black;
+        color: white;
+        font-size: 10px;
+        border: none;
+        border-radius: 6px;
+        padding: 10px 35px;
+    }
+    .info-2{
+        padding: 1vw;
+        display: flex;
+        justify-content: end;
+        align-items: center;
+    }
+    .info-2 img{
+        width: 70%;
+    }
+
+}
